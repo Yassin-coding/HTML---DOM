@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM</title>
+</head>
+<body>
+    <h1>My Zoo</h1>
+    <div id="zoo"> 
+
+        <div>Zone 1 <span id="zone1"></span></div>
+        <div>Zone 2 <span id="zone2"></span></div>
+    </div>
+    <button onclick="openzoo()">Open the zoo </button>
+    <script>
+        function openzoo() {
+            document.getElementById("zone1").innerHTML="owl"
+            document.getElementById("zone2").innerHTML="tiger"
+        }
+    </script>
+    
+</body>
+</html>
